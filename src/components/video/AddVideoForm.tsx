@@ -102,12 +102,12 @@ const AddVideoForm: React.FC = () => {
                 type="url"
                 value={url}
                 onChange={(e) => setUrl(e.target.value)}
-                placeholder="https://example.com/video.mp4"
+                placeholder="https://youtube.com/blahblah"
                 required
                 disabled={isLoading}
               />
               <small className="form-help">
-                Enter a valid video URL (YouTube, Vimeo, or direct video link)
+                Enter a valid YouTube video URL
               </small>
             </div>
             
